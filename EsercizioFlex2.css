@@ -1,0 +1,47 @@
+.Card {
+  width: 500px;
+  background-color: blanchedalmond;
+  border-radius: 100px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Card :nth-child(1) img {
+  width: 700px;
+  height: 500px;
+}
+
+.Descrizione {
+  display: flex;
+  flex-direction: column;
+  padding: 1px;
+  gap: 4px;
+  align-items: center;
+  margin-top: 20px;
+}
+.Descrizione h2,
+p {
+  margin-inline: 20px;
+  margin: 0px;
+}
+
+.Info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  border-radius: 20px;
+  background-color: rgb(255, 208, 0);
+  width: 150px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.prezzo {
+  margin-left: 80px;
+  margin-top: 25px;
+}

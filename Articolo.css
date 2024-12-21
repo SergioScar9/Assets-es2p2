@@ -1,0 +1,19 @@
+.articolo {
+  background-color: blanchedalmond;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  padding: 30px;
+}
+
+.articolo img {
+  flex: 1 1 500px;
+  margin: 10px;
+  width: 350px;
+  margin-inline: auto;
+}
+.testo {
+  flex: 1 1 400px;
+  color: rgb(145, 102, 38);
+  margin: 20px;
+}
